@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {cars} from "../data/cars";
 
 @Component({
   selector: 'app-cars',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cars.component.css']
 })
 export class CarsComponent implements OnInit {
+
+  cars: any[] = cars;
 
   constructor() { }
 
