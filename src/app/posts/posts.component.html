@@ -1,0 +1,4 @@
+<app-post *ngFor="let post of posts" [post]="post" (postBubble)="getPostBubble($event)"></app-post>
+<h2>
+  <app-post [post]="chosenPost"></app-post>
+</h2>
